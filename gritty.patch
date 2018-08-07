@@ -1,0 +1,11 @@
+--- node_modules/gritty/dist-dev/gritty.js	1985-10-26 16:15:00.000000000 +0800
++++ node_modules/gritty/dist-dev/gritty.js	2018-08-07 23:54:52.905059352 +0800
+@@ -871,4 +871,6 @@
+ 
+ /***/ })
+ 
+-/******/ });
+\ No newline at end of file
++/******/ });
++
++module.exports = gritter;

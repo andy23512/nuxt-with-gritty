@@ -5,7 +5,23 @@
 </template>
 
 <script>
-export default { }
+export default {
+  mounted() {
+    if(process.browser) {
+      const gritty = require('gritty/dist-dev/gritty.js')
+      debugger;
+      const prefix = '/gritty'; // default
+      const env = {}; // default
+      const fontFamily = 'Courier'; // default
+
+      gritty('.gritty', {
+        prefix,
+        env,
+        fontFamily,
+      });
+    }
+  }
+}
 </script>
 
 <style>

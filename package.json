@@ -5,6 +5,7 @@
   "author": "andy23512 <andy23512@gmail.com>",
   "private": true,
   "scripts": {
+    "postinstall": "patch -p0 < gritty.patch",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
