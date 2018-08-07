@@ -13,5 +13,4 @@ module.exports = function () {
 
   // Add `socket.io-client` in vendor
   this.addVendor('socket.io-client')
- 
 }
