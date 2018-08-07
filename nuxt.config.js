@@ -35,6 +35,7 @@ module.exports = {
       }
     },
     vendor: ['gritty/dist-dev/gritty.js']
-  }
+  },
+  modules: ['~/io']
 }
 
