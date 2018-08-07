@@ -11,6 +11,8 @@
 - nuxt.config.js  # add io module and gritty vender
 - package.json    # add postinstall command and gritty module
 - pages/index.vue # main page (where gritty vender is included)
+  - Reference:
+    - [gritty client api](https://www.npmjs.com/package/gritty#client-api)
 
 ## Build Setup
 
