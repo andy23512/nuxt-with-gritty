@@ -8,4 +8,4 @@
 \ No newline at end of file
 +/******/ });
 +
-+module.exports = gritter;
++module.exports = gritty;
