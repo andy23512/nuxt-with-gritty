@@ -14,14 +14,14 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "gritty": "^3.0.1",
-    "nuxt": "^1.0.0"
+    "gritty": "^4.7.4",
+    "nuxt": "^2.8.1"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-vue": "^5.2.3"
   }
 }
